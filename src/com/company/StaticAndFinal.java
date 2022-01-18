@@ -20,12 +20,14 @@ public class StaticAndFinal {
         test.a=40;
         test.show();
         Test test1 = new Test();
+        test1.b = 50;
         test1.show();
+        test.show();
 
     }
 }
 
-
+//  OUTER CLASSLAR STATİC OLAMAZ
 //  YARATILAN TÜM TEST OBJELERİ AYNI STATİC VARİABLE IN ADRESİNİ GÖRDÜĞÜ İÇİN BİRİNDEKİ DEĞİŞİKLİK HEPSİNİ ETKİLER
 //  STATİC METODLAR SADECE STATİC OLAN MEMBERLARI KULLANABİLİR O YÜZDEN DİSPLAY ÇALIŞMAZ
 //  STATİC CLASSLAR EXTEND EDİLEMEZ
